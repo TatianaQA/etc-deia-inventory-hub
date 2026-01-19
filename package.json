@@ -1,0 +1,13 @@
+{
+  "name": "etc-deia-inventory-hub",
+  "version": "1.0.0",
+  "description": "Sistema web de gestão de estoque, produtos e vendas para loja de pequeno porte no varejo, com foco em usabilidade, fluxo por código de barras e automação de testes com Cypress.",
+  "private": true,
+  "scripts": {
+    "test:e2e": "cypress open",
+    "test:e2e:headless": "cypress run"
+  },
+  "devDependencies": {
+    "cypress": "^13.6.0"
+  }
+}
